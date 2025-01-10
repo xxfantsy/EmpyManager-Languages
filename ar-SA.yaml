@@ -4,22 +4,22 @@ flag: 🇸🇦
 
 tempchannel-panel-title: "%owner% المحادثة الخاصة لـ"
 tempchannel-panel-body: |
-  اهلاََ %owner% في المحادثة الخاصة بك!
-  فقط المستخدمين المتصلين في القناة يمكنهم رؤية المحادثة الخاصة بك, سوف يتم حذف القناة في حالة مغادرة جميع المستخدمين.
+  أهلاً %owner% في محادثتك الخاصة!
+  يمكن فقط للمستخدمين المتصلين في القناة رؤية المحادثة الخاصة بك. يُرجى ملاحظة أنه سيتم حذف القناة إذا غادر جميع المستخدمين
 
   حالة القناة الصوتية :
   - %private%
   - %hidden%
   
-  استخدم احد **الايقونات** التالية بالأسفل **للتعديل** على مزايا قناتك الصوتية
+  استخدم أحد **الرموز** التالية أدناه **لتعديل** ميزات قناتك الصوتية
 
 bot-added-title: شكرا لإضافتي !
 bot-added-body: |
   اهلاّ, شكرا لإضافتي الى خادمك!
   
-  اكتب`v/help` لرؤية جميع الاوامر.
+  اكتب `v/help` لعرض جميع الأوامر
   
-  كل ما عليك فعله للبدء هو كتابة `prefix%setup%` للدخول إلى الإعدادات الإرشادية .
+  للبدء، اكتب `prefix%setup%` للوصول إلى إعدادات الإرشاد
 
   هنا بعض الروابط التي قد تكون مفيدة:
   - [لوحة التحكم ](https://dashboard.empymanager.com/)
@@ -29,106 +29,106 @@ bot-added-body: |
 
 setup-title: "✅ تم انشاء القناة الرئيسية"
 setup-body: |
-  ✅ لقت انشات ** القناة الرئيسية ** مع المعرف التالي `%id%`  لك
+  ✅ تم إنشاء **القناة الرئيسية** بالمعرّف `%id%`
 
-  يمكن للمستخدمين الان انشاء القنوات المؤقتة الخاصة بهم من خلال القناة الرئيسية.
+  يمكن للمستخدمين الآن إنشاء القنوات المؤقتة الخاصة بهم من خلال القناة الرئيسية
 
-  يرجى التأكد من تخصيص اعداداتك كأسم القناة, معدل البت,الصلاحيات, حد المستخدمين
+  يُرجى التأكد من تخصيص إعداداتك مثل اسم القناة، معدل البت، الصلاحيات، وحد المستخدمين
   
-  **جميع القنوات المؤقتة سيتم اعطائها صلاحيات حد المستخدمين ومعدل البت المشابهة للقناة الرئيسية.**
+  **جميع القنوات المؤقتة ستكتسب إعدادات الصلاحيات ومعدل البت الخاصة بالقناة الرئيسية**
   
   🌐 **لوحة التحكم**
-  - [اعدادات القنوات](https://dashboard.empymanager.com/guilds/%guildId%/masters/%id%).
-  - [اعدادات الخادم](https://dashboard.empymanager.com/guilds/%guildId%).
+  - [إعدادات القنوات](https://dashboard.empymanager.com/guilds/%guildId%/masters/%id%)
+  - [إعدادات الخادم](https://dashboard.empymanager.com/guilds/%guildId%)
   
-  ⌨️ **الاوامر**
-  - [قائمة الاوامر](https://docs.empymanager.com/commands).
+  ⌨️ **الأوامر*
+  - [قائمة االأوامرر](https://docs.empymanager.com/commands)
   
 error-master-creation-body: |
-  لقد واجهت خطأ أثناء إنشاء قناتك الرئيسية:
+  حدث خطأ أثناء إنشاء القناة الرئيسية:
   ```%error%```
   
-  **يرجى التحقق من ان الروبوت (EmpyManager) يمتلك الأذونات الكافية** (يتطلب تفعيل اذن ادمنستريتر لإنشاء قناة رئيسية). 
+  **يُرجى التأكد من أن البوت (EmpyManager) يمتلك الأذونات الكافية** (يتطلب تفعيل إذن مسؤول لإنشاء قناة رئيسية)
   
   **[الدعم الفني](https://empymanager.com/support) للحصول على المساعدة.**
 
   
-help-title: (EmpyManager) اوامر الروبوت
+help-title: (EmpyManager) أوامر البوت
 help-body: |
-  🌟 `v/premium` - للاشتراك في الروبوت والحصول على مميزات اضافية
+  🌟 `v/premium` - للأشتراك في البوت والحصول على ميزات إضافية
   
   -
 help-control-subtitle: 🛠️   تحكم في قناتك الصوتية
 help-control-body: |
   -
   
-  🚫 `/private` / 🌐 `/public` - لجعل القناة الصوتية الخاص بك عامة او خاصة
+  🚫 `/private` / 🌐 `/public` - لجعل القناة الصوتية خاصة أو عامة
   
-  👻 `/hide` / 👁 `/show` - اظهار و اخفاء القناة الصوتية
+  👻 `/hide` / 👁 `/show` - لإخفاء أو إظهار القناة الصوتية
 
-  🏠 `/waitingroom` - اضافة غرفة انتظار للقناة الصوتية
+  🏠 `/waitingroom` - إضافة غرفة انتظار للقناة الصوتية
   
-  🚩 `/claim` - أخذ ملكية القناة الصوتية التي أنت بداخلها حاليًا (يجب ان لا يكون المالك متصل حاليًا).
+  🚩 `/claim` - أخذ ملكية القناة الصوتية الحالية (يجب ألا يكون المالك متصلاً)
   
-  👞 `/kick @user` / ⛔ `/ban @user` -  طرد و حظر الاعضاء من القناة الصوتية 
+  👞 `/kick @user` / ⛔ `/ban @user` -  طرد أو حظر عضو من القناة الصوتية
   
-  🔗 `/invite @user` - دعوة شخص الى قناتك الصوتية ( سيتلقى المدعو رسالة الدعوة )
+  🔗 `/invite @user` - دعوة شخص إلى قناتك الصوتية (سيتلقى المدعو رسالة دعوة)
 
-  اوامر أخرى: `/rename`, `/limit`, `/bitrate`.
+  أوامر أخرى: `/rename`, `/limit`, `/bitrate`.
   
-  **اذا لم تتمكن من استخدام اوامر الـ/  ,يرجي التواصل مع احد الإداريين [تحديث صلاحيات الروبوت](https://discord.com/oauth2/authorize?client_id=719236419230367798&permissions=381715218393%20&scope=bot%20applications.commands&guild_id=%guildId%)**
+  **إذا لم تتمكن من استخدام أوامر الـ /، يُرجى التواصل مع مشرف [تحديث صلاحيات البوت](https://discord.com/oauth2/authorize?client_id=719236419230367798&permissions=381715218393%20&scope=bot%20applications.commands&guild_id=%guildId%).**
 
-help-settings-subtitle: ⚙️  اعدادات المسؤولين
+help-settings-subtitle: ⚙️  إعدادات الإدارة
 help-settings-body: |
-  - فقط المسؤولين  يستطيعون رؤية هذا -
-  📒 `v/setup` - قم بإنشاء قناة رئيسية جديدة وقم بإعدادها .
+  - خاص بالإدارة فقط -
+  📒 `v/setup` - إنشاء قناة رئيسية جديدة وإعدادها
   
-  🖥 `v/dashboard` - الدخول الى لوحة التحكم.
+  🖥 `v/dashboard` - الوصول إلى لوحة التحكم
   
-  📜 `v/masterlist` - قائمة القنوات الرئيسية. 
+  📜 `v/masterlist` - عرض قائمة القنوات الرئيسية
   
-  ❌ `v/resetmasters` - تحويل جميع القنوات الرئيسية إلى قنوات عادية.
+  ❌ `v/resetmasters` - تحويل جميع القنوات الرئيسية إلى قنوات عادية
   
-  ♻️ `v/refresh` - تحديث كافة الإعدادات من قاعدة البيانات في حالة عدم عملها بشكل صحيح.
+  ♻️ `v/refresh` - تحديث كافة الإعدادات من قاعدة البيانات في حالة حدوث خلل
   
-  🔧 `v/settings` - إظهار جميع الإعدادات المتقدمة
+  🔧 `v/settings` - عرض جميع الإعدادات المتقدمة
 
 invite-button-label: دعوة إلى الخادم الخاص بك
-support-button-label:  احصل على الدعم او قدم اقتراحك 
+support-button-label:  الحصول على الدعم أو تقديم اقتراح 
 dashboard-button-label: لوحة التحكم
-vote-button-label: صوت للروبوت 
+vote-button-label: التصويت للبوت   
 
 ### Commands
 
-command-was-disabled-here: تم تعطيل هذا الأمر هنا.
+command-was-disabled-here: تم تعطيل هذا الأمر هنا
 
  # Rename
 rename-command-success-title: تم تغيير الاسم
 rename-command-success-body: تم تغيير اسم القناة إلى %name%.
 rename-interaction-title: "🏷 أعد تسمية قناتك"
-rename-interaction-body: "  لإعادة تسمية  قناتك **,اكتب اسم القناة الجديد الذي تريده هنا **🏷 "
+rename-interaction-body: "  لإعادة تسمية  قناتك **,اكتب اسم القناة الجديد هنا **🏷 "
 
 
  # Bitrate
 change-bitrate-interaction-title: "📣 تغيير معدل البت"
-change-bitrate-interaction-body: "اختر قيمة جديدة 📣 معدل البت."
+change-bitrate-interaction-body: "اختر قيمة جديدة لمعدل البت"
 
  # Claim
 claim-command-success-body: تم!
-claim-command-success-body-author: "تم نقل ملكية القناة بنجاح الى %author%."
+claim-command-success-body-author: "تم نقل ملكية القناة بنجاح الى %author%"
 claim-channel-user-left-title: "🚩 أخذ ملكية القناة"
-claim-channel-user-left-body: المنشئ  غادِر القناة الصوتية. انقر أدناه 🚩 **لأخذ** ملكية القناة 
+claim-channel-user-left-body:"غادر المنشئ القناة الصوتية. انقر أدناه 🚩 **لأخذ** ملكية القناة" 
 claim-button-label: استلام
 
  # Limit
 limit-command-success-title: "👥 تم تغيير حد المستخدمين"
 limit-command-success-body: "👥 تم تعيين حد المستخدمين الى `%limit%`"
-limit-command-unexpected-limit: قيمة حد غير متوقعة.
+limit-command-unexpected-limit: قيمة حد غير متوقعة
 change-limit-interaction-title: "👥 تغيير حد المستخدمين"
 change-limit-interaction-body: |
-  حدد **👥 حد المستخدمين** الذي تريده من خلال النقر على الايقونات أدناه.
+  حدد **👥 حد المستخدمين** الذي تريده من خلال النقر على الازرار أدناه.
   
-  بمجرد اختيارك ، انقر فوق ** ✅ حفظ **.
+  بمجرد اختيارك ، انقر فوق ** ✅ للحفظ **.
 
   الحد الحالي: **%limit%**.
 no-limit: لا يوجد حد
@@ -138,16 +138,16 @@ save-limit: حفظ (%limit% 👥)
 select-user-interaction-title: "حدد مستخدمًا"
  # Kick
 kick-command-success-title: "👞 تم طرد المستخدم"
-kick-command-success-body: "👞 %author% تم طرده من قبل %target%."
-kick-command-error-must-be-connected: يجب أن يكون المستخدم متصلاً حتى يتم طرده.
+kick-command-success-body: "👞 تم طرد %target% من قبل %author%"
+kick-command-error-must-be-connected: يجب أن يكون المستخدم متصلاً.
 kick-interaction-body: |
-  👞 حدد عضوا لطرده من قناتك المؤقتة. 
+  👞 حدد مستخدم لطرده من قناتك المؤقتة. 
   
   ❌ المستخدم غير موجود أو غير متصل؟ اكتب  `/kick @user` لطردهم.
 
 # Ban
 ban-interaction-body: |
-  ⛔ حدد عضوا لحظره من قناتك المؤقتة. 
+  ⛔ حدد مستخدم لحظره من قناتك المؤقتة. 
   
   ❌ المستخدم غير موجود أو غير متصل؟ اكتب `/ban @user` لحظره.
   
@@ -167,35 +167,35 @@ channel-made-private-body: "🚫 تم جعل هذه القناة الصوتية 
 
 # Public
 channel-made-public-title: "🌐 قناة صوتية عامة"
-channel-made-public-body: "🌐 تم جعل هذه القناة الصوتية عامة."
+channel-made-public-body: "🌐 تم جعل هذه القناة الصوتية عامة"
 
 # Hidden
 channel-hidden-title: "👻 قناة مخفية"
-channel-hidden-body: "👻 تم إخفاء هذه القناة الصوتية."
+channel-hidden-body: "👻 تم إخفاء هذه القناة الصوتية"
 
 # Visible
 channel-made-visible-title: "👁 قناة مرئية"
-channel-made-visible-body: "👁 أصبحت هذه القناة مرئية."
+channel-made-visible-body: "👁 أصبحت هذه القناة مرئية"
 
 # Waiting room
-waiting-room-already-enabled: غرفة الانتظار مفعل بالفعل.
-waiting-room-already-disabled: غرفة الانتظار معطلة بالفعل.
+waiting-room-already-enabled: غرفة الانتظار مفعلة بالفعل
+waiting-room-already-disabled: غرفة الانتظار معطلة بالفعل
 waiting-room-default-name: "⬇️ انضم %owner%"
 
-waiting-room-enabled-title: "🏠 غرفة الانتظار موفعله"
-waiting-room-enabled-body: "هذه القناة لديها الآن غرفة انتظار. تم ضبط قناتك على 🚫 ** خاصه **, وسيتعين على المستخدمين الآخرين الانضمام إلى 🏠 ** غرفة الانتظار ** والحصول على موافقتك قبل الدخول."
+waiting-room-enabled-title: "🏠 غرفة الانتظار مفعلة"
+waiting-room-enabled-body: "تم الآن تفعيل غرفة الانتظار لهذه القناة. تم ضبط القناة على 🚫 **خاصة**، ويجب على المستخدمين الآخرين الانضمام إلى 🏠 **غرفة الانتظار** للحصول على موافقتك قبل الدخول"
 
 waiting-room-disabled-title: "🏠 غرفة الانتظار معطلة"
-waiting-room-disabled-body: " **تم تعطيل **غرفة الانتظار** وتم تحويل القناة الى **عامة "
+waiting-room-disabled-body: "**تم تعطيل** غرفة الانتظار وتحويل القناة إلى **عامة**"
 
-waiting-room-approve-body: لقد وافقت على دخول %user% الى قناتك الصوتية.
+waiting-room-approve-body: لقد وافقت على دخول %user% 
 
 ### General errors
 error: خطأ
 command-error-body: |
   %error%
   
-  إذا كنت بحاجة إلى مزيد من المساعدة ، يرجى الانضمام إلى الخادم الرسمي [الدعم الفني](https://empymanager.com/support) or contact a server admin.
+  إذا كنت بحاجة إلى مزيد من المساعدة، يُرجى الانضمام إلى الخادم الرسمي [الدعم الفني](https://empymanager.com/support) أو التواصل مع أحد مسؤولي الخادم.
 target-not-found: الهدف غير موجود.
 not-enough-permissions-command: ليس لديك الصلاحيات كافية لتنفيذ هذا الأمر هنا.
 feature-requires-premium: المميزات معطلة في هذا الخادم, يرجى ترقية خادمك ; للمزيد من المعلومات  `%prefix%premium`.
@@ -205,8 +205,8 @@ must-be-a-manager: يجب أن تكون مسؤولا لتنفيذ هذا الأ�
 must-be-a-moderator: يجب أن تكون مشرف لتنفيذ هذا الأمر.
 
 command-disabled-here: لا يُسمح لك بتنفيذ هذا الأمر هنا. تواصل مع احد المسؤولين في الخادم.
-specify-valid-masterchannel-id: الرجاء تحديد معرف صالح للقناة رئيسية موجودة. [شاهد هذا الفيديو](https://www.youtube.com/watch?v=xgjGuA-Xp4g) لمعرفة كيفية الحصول على معرف القناة.
-invalid-masterchannel-id: هذا القناة %channelId% ليست قناة رئيسية. [شاهد هذا الفيديو](https://www.youtube.com/watch?v=xgjGuA-Xp4g) لمعرفة كيفية الحصول على معرف القناة.
+specify-valid-masterchannel-id: القناة %channelId% ليست قناة رئيسية. [شاهد هذا الفيديو](https://www.youtube.com/watch?v=xgjGuA-Xp4g) لمعرفة كيفية الحصول على معرّف القناة.
+invalid-masterchannel-id:  القناة %channelId% ليست قناة رئيسية. [شاهد هذا الفيديو](https://www.youtube.com/watch?v=xgjGuA-Xp4g) لمعرفة كيفية الحصول على معرّف القناة. 
 
 no-common-found: لم يتم العثور على الأمر %command% .
 command-info: معلومات الأمر
@@ -227,8 +227,8 @@ info-command-body: |
 
 # Dashboard
 dashboard-command-title: رابط لوحة التحكم
-dashboard-command-body: "يمكنك الوصول إلى لوحة التحكم الخاص بهذا الخادم من هنا: %link%"
-dashboard-unauthorised-command-body: "لا يمكنك إدارة هذا الخادم ، ولكن يمكنك الوصول إلى لوحة تحكم EmpyManager من هنا: %link%"
+dashboard-command-body: "يمكنك الوصول إلى لوحة التحكم الخاصة بهذا الخادم من هنا: %link%"
+dashboard-unauthorised-command-body: "لا يمكنك إدارة هذا الخادم، ولكن يمكنك الوصول إلى لوحة تحكم EmpyManager من هنا: %link%"
 
 
 
@@ -236,8 +236,8 @@ dashboard-unauthorised-command-body: "لا يمكنك إدارة هذا الخا
 permanent-channel-success-title: دائم
 permanent-channel-success-body: تم جعل هذه القناة دائمة ولن يتم حذفها.
 temporary-channel-success-title: "⏲️ مؤقتة"
-temporary-channel-success-body: هذه القناة الآن ** ⏲️ مؤقتة ** وسيتم حذفها ** بمجرد إفراغها.
-cannot-make-more-permanent-channels: لا يمكنك إنشاء المزيد من القنوات الدائمة التي تستخدمها, أنت تستخدم %count%/%max% المتاحة لخادمك.
+temporary-channel-success-body: هذه القناة الآن **⏲️ مؤقتة** وسيتم حذفها بمجرد مغادرتها.
+cannot-make-more-permanent-channels: لا يمكنك إنشاء المزيد من القنوات الدائمة. الحد الأقصى المسموح به للخادم هو %max%، وأنت تستخدم %count% منها.
 
 # Invites
 invites-disabled-here: الدعوات معطلة في هذا الخادم. تواصل مع مسؤول `%prefix%settings invites%` للمزيد من المعلومات.
@@ -247,14 +247,14 @@ invites-enabled: "تم تفعيل الدعوات."
 invites-disabled: "تم تعطيل الدعوات."
 
 assign-linked-roles-forbidden-error: إذن مفقود لتعيين / إزالة الرتبة المرتبطة  للمستخدم. من فضلك ، تأكد من أن رتبة EmpyManager أعلى من الرتبة المعينة.
-assign-linked-roles-generic-error: "تعذر تعيين / إزالة الرتبة المرتبطة للمستخدم:"
+assign-linked-roles-generic-error: "تعذر تعيين / إزالة الرتبة للمستخدم:"
 
 # Language
 show-current-language-title: اللغة الحالية
 show-current-language-body: |
   اللغة المستخدمة الحالية %language%
   
-  غيره?
+  هل ترغب في تغييرها؟
 
 language-edited-title: تم تغيير اللغة
 language-edited-body: تم تغيير اللغة الى %language%.
@@ -263,14 +263,14 @@ language-edited-body: تم تغيير اللغة الى %language%.
 not-a-premium-server: " تم الوصول للحد يجب ترقية الخادم الخاص بك للحصول على قنوات غير محدودة"
 a-premium-server: "**خادم مميز**."
 a-premium-plus-server: "**خادم مميز +**."
-enable-premium-here: "نظرًا لأنك مستخدم متميز ، يمكنك تفعيل اشتراك عبر الأمر التالي `%prefix%premium enable`."
-premium-features: "انظر الى جميع مميزات الخادم المميز [هنا] (https://dashboard.empymanager.com/premium)."
+enable-premium-here: "نظرًا لأنك مستخدم مميز، يمكنك تفعيل الاشتراك عبر الأمر التالي `%prefix%premium enable`."
+premium-features: "اطّلع على جميع ميزات الخادم المميز [هنا](https://dashboard.empymanager.com/premium)."
 premium-must-be-inside-server: يجب ان تكون في الخادم.
 not-premium-provider: انت لست مالك الخادم المميز او مسؤولا.
 no-premium-subscriptions: لا توجد اشتراكات مميزة في هذا الخادم.
 premium-info: |
   هذا الخادم هو %type%
 
-  **قائمة المميزات الكاملة [هنا](https://dashboard.empymanager.com/premium).**
-  للأشتراك في [Patreon](https://patreon.com/nexgan).
-  انضم إلى خادم [ الدسكورد ] الرسمي(https://empymanager.com/support) للمزيد من المعلومات أو الاسئلة. 
+  **اطّلع على قائمة الميزات الكاملة [هنا](https://dashboard.empymanager.com/premium).**
+  للاشتراك، قم بزيارة [Patreon](https://patreon.com/nexgan).
+  انضم إلى خادم [الدسكورد](https://empymanager.com/support) الرسمي للمزيد من المعلومات أو الاستفسارات.
